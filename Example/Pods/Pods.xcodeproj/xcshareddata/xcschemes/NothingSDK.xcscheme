@@ -17,7 +17,7 @@
                BlueprintIdentifier = "DA68E53D519A7A59C4FF043F97D35140"
                BuildableName = "NothingSDK.framework"
                BlueprintName = "NothingSDK"
-               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
