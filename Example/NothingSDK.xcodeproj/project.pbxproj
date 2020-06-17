@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		1FDC9562C2F992D41ED9193F /* Pods_NothingSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NothingSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		36F7258660C2AFCD23A87AC8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		36F7258660C2AFCD23A87AC8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5D2B31F3E64D0A04917F4099 /* Pods-NothingSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NothingSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-NothingSDK_Example/Pods-NothingSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* NothingSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NothingSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		6997917DDC110F2345CEBB82 /* Pods-NothingSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NothingSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NothingSDK_Tests/Pods-NothingSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		87D7E5185BF07DC9B68980B7 /* Pods_NothingSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NothingSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A09BFC13E05B6904E64C4951 /* Pods-NothingSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NothingSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-NothingSDK_Tests/Pods-NothingSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B29ABF2D6A1657461AD811D7 /* NothingSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NothingSDK.podspec; path = ../NothingSDK.podspec; sourceTree = "<group>"; };
+		B29ABF2D6A1657461AD811D7 /* NothingSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NothingSDK.podspec; path = ../NothingSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D027BEAB41EE024D6138B1EA /* Pods-NothingSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NothingSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-NothingSDK_Example/Pods-NothingSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D8C40D8BA016805319DFC413 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D8C40D8BA016805319DFC413 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				6997917DDC110F2345CEBB82 /* Pods-NothingSDK_Tests.debug.xcconfig */,
 				A09BFC13E05B6904E64C4951 /* Pods-NothingSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
