@@ -1,0 +1,6 @@
+framework module NothingSDK {
+  umbrella header "NothingSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

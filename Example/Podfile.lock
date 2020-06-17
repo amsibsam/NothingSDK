@@ -1,0 +1,27 @@
+PODS:
+  - Nimble (7.3.4)
+  - NothingSDK (0.1.0)
+  - Quick (1.2.0)
+
+DEPENDENCIES:
+  - Nimble (~> 7.0)
+  - NothingSDK (from `../`)
+  - Quick (~> 1.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  NothingSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  NothingSDK: 22348cda3e3bb83888ce4b45234599d5798d467e
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+
+PODFILE CHECKSUM: 24815587c9758ac8feba73becf58ed4ce5e6f436
+
+COCOAPODS: 1.9.1
